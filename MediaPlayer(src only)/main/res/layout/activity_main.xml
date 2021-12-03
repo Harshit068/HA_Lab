@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_light_background"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="402dp"
+        android:layout_height="69dp"
+        android:backgroundTint="@color/black"
+        android:ems="10"
+        android:fontFamily="cursive"
+        android:inputType="textPersonName"
+        android:text="Media Player"
+        android:textAlignment="center"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="269dp"
+        android:layout_height="43dp"
+        android:fontFamily="cursive"
+        android:text="Shiddat"
+        android:textAlignment="center"
+        android:textColor="@color/purple_500"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.577"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.172" />
+
+    <Button
+        android:id="@+id/play"
+        android:layout_width="167dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@color/purple_500"
+        android:drawableLeft="@drawable/play"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.269"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        android:text="Play"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/pause"
+        android:layout_width="167dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@color/purple_500"
+        android:drawableLeft="@drawable/pause"
+        android:fontFamily="cursive"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
+        android:text="Pause"
+        android:textColor="@color/white"
+        />
+
+
+    <Button
+        android:id="@+id/forward"
+        android:layout_width="167dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@color/purple_500"
+        android:drawableLeft="@drawable/forward"
+        android:textAlignment="viewStart"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
+       android:text="Forward"
+        android:textColor="@color/white"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/rewind"
+        android:layout_width="167dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@color/purple_500"
+        android:drawableLeft="@drawable/rewind"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.602"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
+        android:text="Rewind"
+        android:textColor="@color/white"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+
+
+
+
+    <Button
+        android:id="@+id/stop"
+        android:layout_width="167dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@color/purple_500"
+        android:drawableLeft="@drawable/stop"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck,TextContrastCheck"
+        android:text="Stop"
+        android:textColor="@color/white"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+
+
+
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="167dp"
+        android:layout_height="41dp"
+        android:backgroundTint="@color/purple_500"
+        android:drawableLeft="@drawable/restart"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817"
+        tools:ignore="MissingConstraints,TouchTargetSizeCheck"
+        android:text="Restart"
+        android:textColor="@color/white"
+        android:fontFamily="cursive"
+        android:textStyle="bold"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
